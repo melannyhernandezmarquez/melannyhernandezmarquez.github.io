@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Moon+Dance&family=Yatra+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main,footer{
+    background-color:#d8e2dc;
+    color: #2a9d8f;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    font-family: "Lato", sans-serif;
+}
+header{
+    height: auto;
+    font-family: "Yatra One", system-ui;
+}
+nav{
+    background-color: #94d2bd;
+    font-family: "Moon Dance", cursive;
+    text-align: center;
+}
+nav ul li, nav a img{
+    list-style-type: none;
+    display: inline-block;
+    background-color: #39375B;
+    width: 1%;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    /*margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;*/
+    margin: 5px;
+}
+nav ul li a:link, nav ul li a:visited{
+    text-decoration: none;
+    color: #d4a373;
+}
+nav ul li:hover{
+    background-color: #394032;
+}
+section{
+    background-color: #fefae0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    overflow-x:auto;
+    width: 80%;
+}
+h2{
+    margin-bottom: 30px;
+    font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}
+footer{
+    text-align: center;
+    height: 30px;
+    background-color: #faedcd;
+    font-size: 20px;
+}
+footer a img{
+    width: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1,h6{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-spacing: 10px;
+}
+#tabla_1{
+    background-color: #bde0fe;
+    border: 3px solid red;
+    border-spacing: 10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#tabla_1 th{
+    font-size: 20px;
+    background-color:#3a5a40;
+    color: #a3b18a;
+}
+#tabla_1 th, #tabla_1 td{
+    border:3px solid #ccd5ae;
+    padding: 10px;
+}
+#tabla_cebra{
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+#tabla_cebra td, #tabla_cebra th{
+    padding: 10px;
+    border-width: 5px;
+    border-color: aliceblue;
+    border-style: solid;
+}
+#tabla_cebra th{
+    background-color: #588157;
+}
+#tabla_cebra t body tr:nth-child(even){
+    background-color: #d4a373;
+}
+#tabla_cebra tbody tr:nth-child(odd){
+    background-color: #ccd5ae;
+}
+#tabla_hover{
+    width: 70%;
+    background-color: #ccd5ae;
+    color: #415a77;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#tabla_hover th{
+    background-color: #d4a373;
+    color: #778da9;
+}
+#tabla_hover td, #tabla_hover th{
+    border-width: 2px;
+    border-color:#778da9;
+    border-style:#e0e1dd;
+    padding: 20px;
+}
+#tabla_hover tr:hover{
+    background-color: yellow;
+}
+img{
+    width: 100%;
+    margin-top: 30px;
+}
+main section{
+   margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+#img_gif{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+p{
+    margin-top: 20px;
+}
+.img_flotante{
+    width: 30%;
+    float: left;
+    margin-top: 0;
+    margin-right: 20px;
+}
+.alineacion{
+    float: right;
+    margin: 0;
+}
+#fondo_box{
+    background-image: url("../imagenes/milky-way-6657951_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: beige;
+}
+.img_filter{
+    text-align: center;
+}
+.img_filter p, .img filter h2{
+    text-align: justify;
+}
+.img_filter img{
+    width: 20%;
+    margin: 20px;
+}
+.img-borde-redondo{
+    border-radius: 50%;
+}
+form{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+label{
+    color: darkblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+input, textarea{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 18px;
+}
+textarea{
+    padding: 20px;
+}
+input[type=submit]{
+    width: 20%;
+    padding: 10px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    color: cadetblue;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+input[type=text]:focus, input[type=password]:focus, textarea[type=email]:focus{
+    background-color: azure;
+    color: blue;
+}
+input[type=radio]{
+    width: 20%;
+}

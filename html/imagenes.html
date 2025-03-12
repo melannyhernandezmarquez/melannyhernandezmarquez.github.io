@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Imágenes</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
+        <style>
+            #filtro-gray{
+                filter: grayscale(100%);
+            }
+            #filtro-sepia{
+                filter: sepia(100%);
+            }
+            #filtro-brillo{
+                filter: brightness(150%);
+            }
+            #filtro-contraste{
+                filter: contrast(120%);
+            }
+            #filtro-blur{
+                filter: blur(2px);
+            }
+            #filtro-inverso{
+                filter: invert(100%);
+            }
+            #filtro-saturacion{
+                filter:saturate(150%);
+            }
+            #filtro-opacidad{
+                filter:opacity(60%);
+            }
+            #filtro-sombra{
+                filter:drop-shadow(8px 8px 10px gray);
+            }
+            #filtro-huerotate{
+                filter: hue-rotate(270deg);
+            }
+            .filtros{
+                filter: blur(1px) invert(80%)
+            }
+            #enlace-img{
+                width: 32px;
+                height: auto;
+            }
+            .filtro{
+                filter: saturate(150%)drop-shadow(8px 8px 10px red)
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>IMÁGENES</h1>
+        </header>
+        <nav>
+           <a href="../index.html"><img src="../imagenes/inicio.png"></a>
+            <ul>
+                <li><a href="../html/formatos.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imagenes</a></li>
+                <li><a href="../html/11%20Hernandez%20Marquez%20Melanny-%20Enlaces.html">Enlaces</a></li>
+                <li><a href="../html/Audios.html">Audios</a></li>
+                <li><a href="../html/videos.html">Videos</a></li>
+                <li><a href="../html/Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Imagenes</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem architecto, similique explicabo mollitia sed, pariatur incidunt temporibus dolores hic minima velit, nostrum voluptas, voluptatibus at adipisci maiores itaque inventore totam. Temporibus alias qui perspiciatis vitae consectetur enim inventore cupiditate odio consequatur laboriosam fuga illum ullam dolorem non animi repellat aut, maiores officia amet modi?</p>
+                    <img src="../imagenes/milky-way-6657951_640.jpg" alt="via lactea" type="imagen/jpg">
+            </section>
+            <section>
+                <h2>Imagenes</h2>
+                <p><img class="alineacion img_flotante" src="../imagenes/galaxias-espirales.png" alt="galaxia" type="imagen/jpg">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero optio velit porro, nobis delectus et sequi.  Doloribus eveniet eum adipisci, accusantium, dolorum tenetur consequatur tempore quo aliquam, quae nesciunt. Odio ipsam dolores eos aspernatur modi quasi ad obcaecati iusto architecto, facilis! Illo ullam, incidunt sequi expedita error necessitatibus quas sapiente. <img class="img_flotante" src="../imagenes/cosmic-160320_640.png"> Officia repellendus explicabo totam impedit beatae aspernatur dolores adipisci perferendis, suscipit quo ab delectus illum voluptatem tenetur praesentium earum et!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero velit maiores, distinctio eaque nesciunt illum voluptatem aperiam delectus eos minus, provident reprehenderit? Nesciunt consequatur porro numquam odit qui, sapiente quaerat fugiat, totam eos eligendi laborum dicta reprehenderit deserunt itaque sit in hic magnam laudantium, nobis sed voluptatum? Sed numquam possimus expedita dolor eum magnam amet sapiente vel eos, incidunt quam ipsa, dicta saepe.</p>
+            </section>
+            <section>
+                <h2>Imagen gif</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero optio velit porro, nobis delectus et sequi. Odio ipsam dolores eos aspernatur modi quasi ad obcaecati iusto architecto, facilis! Illo ullam, incidunt sequi expedita error necessitatibus quas sapiente. Officia repellendus explicabo totam impedit beatae aspernatur dolores adipisci perferendis, suscipit quo ab delectus illum voluptatem tenetur praesentium earum et!</p>
+                    <img id="img_gif" src="../imagenes/rocket-3972_128.gif">
+            </section>
+            <section id="fondo_box">
+                <h2>Imagen fondo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, expedita? Atque dolorum mollitia accusamus vero a magni sequi, reprehenderit repellendus, expedita distinctio vitae ea porro beatae illum est odio quas nesciunt facere hic rerum aut nam. Suscipit alias, nostrum voluptates error esse eligendi sapiente fuga. Ratione architecto aperiam, dignissimos, ipsam, rem reprehenderit repudiandae optio consequatur molestias dolores at velit delectus quam voluptatem earum sapiente nam. Architecto iusto quis veniam error id! Neque, voluptatibus?</p>
+                <a href="https://www.nasa.gov/" target="_blank"><img id="enlace-img" src="../imagenes/png-clipart-nasa-logo-nasa-logo-icons-logos-emojis-tech-companies.png"></a>
+            </section>
+            <section class="img_filter">
+                <h2>Imagen filtro</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam sed aliquid minus, quia, debitis magnam! Itaque facere et provident ab, necessitatibus architecto ullam sit? Harum dolores, consequuntur enim placeat delectus quidem ipsa, accusamus explicabo maiores minus commodi! Ut, reprehenderit, tenetur? Aut enim neque eveniet fugit dignissimos aliquid minima tempore voluptatem. Vel quod quibusdam totam sint sunt dolores eum.</p>
+                <img src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-gray" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-sepia" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-contraste" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-blur" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-inverso" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-saturacion" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-opacidad" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-sombra" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img id="filtro-huerotate" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img class="filtros" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+                <img class="filtro" src="../imagenes/pexels-kindelmedia-7105571%20(1).jpg" alt="niño vestido de autronauta" type="imagen/jpg">
+            </section>
+        </main>
+        <footer>
+           <a href="https://www.facebook.com/melanny.hdz.16" target="_blank"><img src="../imagenes/facebook.png"></a>
+            <a href="https://www.instagram.com/lazy_mely.69/" target="_blank"><img src="../imagenes/logotipo-de-instagram.png"></a>
+            <h6>Elaborado por Melanny Hernandez Marquez</h6>
+        </footer>
+    </body>
+</html>
